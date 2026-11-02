@@ -1,0 +1,35 @@
+﻿[Desktop Entry]
+Type=Application
+Version=1.5
+Name=NJLINK
+GenericName=Phone Link
+Comment=Connect your Android phone and Linux PC over LAN
+Exec=njlink-desktop %U
+Icon=njlink
+Terminal=false
+Categories=Network;FileTransfer;Telephony;
+Keywords=android;phone;sync;clipboard;notifications;files;mirror;sms;calls;
+StartupNotify=true
+StartupWMClass=njlink
+MimeType=x-scheme-handler/njlink;x-scheme-handler/tel;x-scheme-handler/sms;x-scheme-handler/smsto;x-scheme-handler/mms;x-scheme-handler/mmsto;x-scheme-handler/geo;
+Actions=send-files;send-clipboard;find-phone;take-photo;open-timeline;
+
+[Desktop Action send-files]
+Name=Send files to phone
+Exec=njlink-desktop --task send-files
+
+[Desktop Action send-clipboard]
+Name=Send clipboard to phone
+Exec=njlink-desktop --task send-clipboard
+
+[Desktop Action find-phone]
+Name=Find my phone
+Exec=njlink-desktop --task find-phone
+
+[Desktop Action take-photo]
+Name=Take photo with phone
+Exec=njlink-desktop --task take-photo
+
+[Desktop Action open-timeline]
+Name=Open Timeline
+Exec=njlink-desktop --task open-timeline

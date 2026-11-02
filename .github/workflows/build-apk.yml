@@ -1,0 +1,65 @@
+name: Build NJLINK APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'android/**'
+      - 'core/**'
+      - 'Cargo.*'
+      - '.github/workflows/build-apk.yml'
+  pull_request:
+    paths:
+      - 'android/**'
+      - 'core/**'
+      - 'Cargo.*'
+      - '.github/workflows/build-apk.yml'
+
+jobs:
+  build-apk:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain & Android targets
+        run: |
+          rustup show active-toolchain || rustup toolchain install
+          rustup target add aarch64-linux-android armv7-linux-androideabi x86_64-linux-android
+
+      - name: Install cargo-ndk
+        run: cargo install --locked cargo-ndk
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          cmdline-tools-version: "16111833"
+          packages: "platforms;android-37 ndk;30.0.16248370 build-tools;37.0.0"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Build Release APK
+        working-directory: android
+        # Builds for arm64 (modern phones) and armeabi-v7a (older phones)
+        run: ./gradlew --no-daemon assembleRelease -Pnjlink.abis=arm64-v8a,armeabi-v7a
+
+      - name: Prepare APK for download
+        run: |
+          mkdir -p output
+          cp android/app/build/outputs/apk/release/*.apk output/NJLINK-Release.apk 2>/dev/null || cp android/app/build/outputs/apk/*/*/*.apk output/
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: NJLINK-Android-APK
+          path: output/*.apk
+          retention-days: 30
