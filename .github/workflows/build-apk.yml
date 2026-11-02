@@ -47,6 +47,9 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
+      - name: Make gradlew executable
+        run: chmod +x android/gradlew
+
       - name: Build Release APK
         working-directory: android
         # Builds for arm64 (modern phones) and armeabi-v7a (older phones)
