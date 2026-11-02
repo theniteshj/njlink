@@ -1,4 +1,4 @@
-﻿# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 # A tag like v0.1.0 builds the Windows installer and the signed Android app,
 # and puts both on a draft GitHub release (with their SHA-256 sums, which
 # the apps' updaters check), for a maintainer to review and publish.
@@ -144,7 +144,7 @@ jobs:
       - name: Check the install script
         run: shellcheck -s sh desktop/packaging/linux/install.sh
       - name: Cache FFmpeg source archives
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ runner.temp }}/ffmpeg-sources
           key: ffmpeg-sources-${{ hashFiles('desktop/packaging/linux/build-ffmpeg-backends.sh') }}
