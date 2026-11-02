@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Play on phone, on this PC (docs/protocol/media.md §4): moves what one of
 //! its players plays to a phone. A protected streaming service opens on
 //! the phone in its app and the PC pauses; anything else the phone watches

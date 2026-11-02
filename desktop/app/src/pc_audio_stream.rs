@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone as Speaker / Headphones for PC Audio (§3.8 P2): captures Windows
 //! system audio via WASAPI loopback (`AUDCLNT_STREAMFLAGS_LOOPBACK`), converts
 //! 32-bit float stereo samples to 16-bit signed little-endian PCM, and streams

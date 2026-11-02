@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! macOS login item / autostart via LaunchAgents.
 
 use std::path::Path;

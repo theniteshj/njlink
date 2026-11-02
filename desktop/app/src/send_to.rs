@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Explorer's "Send to" menu: a shortcut per paired phone, which starts
 //! NJLINK with `--send-to <device> <files…>`. The running app sends the
 //! files and follows the transfer in a Windows notification with a progress

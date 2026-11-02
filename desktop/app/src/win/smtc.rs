@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! What plays on a phone, in Windows' own media controls: the flyout by the
 //! volume and Quick Settings, the lock screen, and the keyboard's media
 //! keys (System Media Transport Controls).

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The app's language: the system's or the one chosen in Settings, for the
 //! QML (Qt's translators) and for the text the app builds in Rust, through
 //! [`tr!`]. `cargo xtask strings` collects every `tr!` text into

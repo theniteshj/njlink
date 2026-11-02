@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Phone as a macro pad for a PC (`docs/protocol/deck.md`).
 //!
 //! A PC that offers `deck.actions` shares its Deck layout (`deck.layout`) and

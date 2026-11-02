@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! What the app keeps about notifications between runs: the user's rules
 //! for apps (and those apps' names), whether history is kept, and the
 //! history itself. Two JSON files in the data folder, written in the

@@ -1,4 +1,4 @@
-﻿# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 <#
 .SYNOPSIS
     Prepares a qmake that cross-compiles for Windows ARM64 from an x64 host

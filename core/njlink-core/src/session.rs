@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! One authenticated session with a paired device: the hello handshake, the
 //! control stream, request/response correlation and the heartbeat.
 

@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "njlink-desktop"
 description = "NJLINK for Windows: the desktop app"
 version.workspace = true

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Decodes a phone's H.264 or HEVC camera stream on a dedicated thread.
 //! Publishes NV12 GPU textures or BGRX frames to the virtual camera and feeds
 //! the Settings preview through `VideoView` (stream `webcam`).

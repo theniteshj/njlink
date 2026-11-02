@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! PC-owned Deck configuration, live state syncing, and action execution
 //! (`docs/protocol/deck.md`).
 

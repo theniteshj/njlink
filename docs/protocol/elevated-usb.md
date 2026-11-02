@@ -1,4 +1,4 @@
-﻿# Elevated over USB
+# Elevated over USB
 
 > Status: draft (v0). Part of [the protocol](v0.md). Breaking changes are
 > allowed until v1. License: CC BY 4.0.

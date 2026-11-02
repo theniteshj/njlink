@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Low-latency 16-bit signed little-endian PCM playback on Linux via
 //! PulseAudio (`pacat`), PipeWire (`pw-play`), or ALSA (`aplay`), backed by an
 //! adaptive jitter buffer with smooth sample interpolation.

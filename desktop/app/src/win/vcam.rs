@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Windows 11 Virtual Camera (`MFCreateVirtualCamera`) registration and
 //! session management for `"NJLINK Webcam"`.
 

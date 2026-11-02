@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `Photos`: a phone's photo and video gallery as a Qt list model for the
 //! virtualized `GridView`, plus albums and full-file actions (Save, Copy,
 //! Open, and in-app viewing).

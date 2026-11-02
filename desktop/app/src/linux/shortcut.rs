@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 // Linux file-manager "Send to" integration and `.lnk`-compatible shortcut metadata.
 //
 // `crate::send_to` reconciles per-device `<Name>.lnk` files in `send_to_dir()`.

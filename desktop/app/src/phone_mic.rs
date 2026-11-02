@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone as microphone (docs/protocol/mic.md), on this PC: asks a phone for
 //! its microphone and plays it into an output device. Played into a virtual
 //! audio cable (VB-Audio's CABLE Input, Voicemeeter), the cable's other end

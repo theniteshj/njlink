@@ -1,4 +1,4 @@
-﻿# Contributing
+# Contributing
 
 This guide summarizes the repository conventions, module header requirements, protocol change rules, and pre-submission checks for contributing to NJLINK. See also the root [`CONTRIBUTING.md`](../../CONTRIBUTING.md) and [`LICENSE`](../../LICENSE).
 

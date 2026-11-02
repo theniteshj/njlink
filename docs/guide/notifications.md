@@ -1,4 +1,4 @@
-﻿# Notifications
+# Notifications
 
 NJLINK mirrors your phone's notifications to your PC in real time. You can read alerts, reply inline to messages, trigger notification action buttons, track live delivery or timer progress, copy one-time verification codes with one click, and dismiss notifications on both devices at once.
 

@@ -1,4 +1,4 @@
-﻿# ADR 0005: Qt Quick (QML) + Rust for the Windows app
+# ADR 0005: Qt Quick (QML) + Rust for the Windows app
 
 - **Status:** Accepted
 - **Date:** 2026-10-05

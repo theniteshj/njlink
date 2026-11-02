@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Wi-Fi through the Native Wifi API (`wlanapi.dll`): the networks Windows has
 //! saved, whether one is in range, and joining one with its saved profile.
 //! NJLINK never sees or stores a Wi-Fi password: joining uses the profile

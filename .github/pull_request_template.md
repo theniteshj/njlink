@@ -1,4 +1,4 @@
-﻿## What and why
+## What and why
 
 <!-- What this change does and the problem it solves. Link the issue if there is one. -->
 

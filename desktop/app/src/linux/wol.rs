@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 use std::collections::{BTreeSet, HashMap};
 use std::fs;
 use std::net::Ipv4Addr;

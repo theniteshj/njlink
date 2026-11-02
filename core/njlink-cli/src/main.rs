@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `njlink`: a command-line client for development, testing and scripting.
 //!
 //! It runs its own node with its own identity (separate from the desktop

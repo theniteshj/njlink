@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Updates for an installed copy: the latest GitHub release is checked at
 //! startup and once a day (unless turned off). A newer one is downloaded,
 //! checked against the release's SHA-256 sums, and installed silently.

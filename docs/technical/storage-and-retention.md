@@ -1,4 +1,4 @@
-﻿# Storage and Retention
+# Storage and Retention
 
 NJLINK persists all relational state in an embedded SQLite database (`njlink.db`) managed by `core/njlink-core/src/store.rs`, supplemented by a `KeyProtector`-encrypted clipboard vault (`core/njlink-core/src/clipboard_history.rs`) and bounded desktop notification state files (`desktop/app/src/notification_store.rs`).
 

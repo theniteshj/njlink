@@ -1,4 +1,4 @@
-﻿# Additional permission under GNU GPL version 3, section 7
+# Additional permission under GNU GPL version 3, section 7
 
 This additional permission applies to every part of NJLINK that is licensed
 under the GNU General Public License version 3 or later ("the GPL"), as listed

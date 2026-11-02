@@ -1,4 +1,4 @@
-﻿# NJLINK PowerToys Command Palette / PowerToys Run Extension (`njlink-ptrun`)
+# NJLINK PowerToys Command Palette / PowerToys Run Extension (`njlink-ptrun`)
 
 `njlink-ptrun` is a standalone, zero-dependency Rust helper that connects Windows launcher tools (PowerToys Command Palette, PowerToys Run, Flow Launcher, Raycast for Windows) to NJLINK's [Local Authenticated API](../../docs/api.md).
 

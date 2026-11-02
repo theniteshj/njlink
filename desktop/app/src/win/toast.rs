@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone notifications as Windows toasts, with the app's icon, its actions
 //! and an inline reply field.
 //!

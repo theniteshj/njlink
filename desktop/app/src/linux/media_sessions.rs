@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! What plays on this PC, for paired phones (`docs/protocol/media.md`): active
 //! MPRIS2 media sessions on Linux via native in-process `zbus` D-Bus queries
 //! and signal subscriptions (`PropertiesChanged`, `Seeked`, `NameOwnerChanged`),

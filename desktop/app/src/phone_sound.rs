@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The phone's sound on this PC without a mirror window
 //! (`MirrorStart::sound_only`, docs/protocol/mirror.md): what the phone plays
 //! comes out of the PC's speakers or headphones. Opening the phone's mirror

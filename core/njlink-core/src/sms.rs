@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Text messages (docs/protocol/sms.md): a PC lists a phone's
 //! conversations and their messages, fetches pictures in them, and sends
 //! texts through the phone; the phone says when something changed.

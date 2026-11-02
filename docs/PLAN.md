@@ -1,4 +1,4 @@
-﻿# NJLINK: Product & Engineering Plan
+# NJLINK: Product & Engineering Plan
 
 > **NJLINK** connects Android phones and Windows PCs. It's one open-source app that replaces Phone Link, KDE Connect, scrcpy, LocalSend and Intel Unison.
 > *Bees carry nectar back to the hive. NJLINK carries everything between your phone and your PC.*

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The Rust side of the proof: a QObject that QML binds to, fed from a
 //! background thread the way `njlink-core` events will be. All updates
 //! cross into Qt through `qt_thread().queue(...)`, the single pattern the

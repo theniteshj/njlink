@@ -1,4 +1,4 @@
-﻿# Troubleshooting
+# Troubleshooting
 
 If your phone and PC cannot find each other, disconnect when your phone screen turns off, or have trouble with a specific feature, follow the steps on this page.
 

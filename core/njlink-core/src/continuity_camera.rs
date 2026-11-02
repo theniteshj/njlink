@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Continuity Camera: a paired PC asks a phone to take a photo or scan a
 //! document (`camera.capture.request`), and the phone streams the captured
 //! image back on a dedicated `camera` / `result` stream.

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone notifications as Freedesktop desktop notifications on Linux, with
 //! action buttons, inline replies, progress updates, and D-Bus signal routing.
 

@@ -1,4 +1,4 @@
-﻿# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 <#
 .SYNOPSIS
   Opens the Windows app's main window for a few seconds and fails on any

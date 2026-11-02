@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Speaker volume, mute, output device enumeration, and microphone mute state
 //! via Windows Core Audio (`IMMDeviceEnumerator` + `IAudioEndpointVolume`),
 //! and notifications when any of them change.

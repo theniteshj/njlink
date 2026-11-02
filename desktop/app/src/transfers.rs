@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! File transfers on this PC (docs/protocol/files.md): sending what the
 //! user picks or drops, opening what arrived, and a Windows notification
 //! when files from a phone are saved.

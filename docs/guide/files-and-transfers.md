@@ -1,4 +1,4 @@
-﻿# Files and Transfers
+# Files and Transfers
 
 NJLINK transfers files and folders between your phone and PC at full local Wi-Fi or USB speed. Every transfer supports manual pause and resume, automatic recovery after a dropped connection, end-to-end BLAKE3 integrity verification, and an offline `Waiting to send` queue so nothing is lost when the other device is asleep or out of reach. You can also mount your phone's storage directly inside Windows File Explorer, browse your PC's folders from your phone, set up automatic folder sync, and share files with nearby LocalSend devices.
 

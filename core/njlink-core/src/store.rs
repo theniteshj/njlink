@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! SQLite storage: the trust store of paired devices, their last known
 //! addresses and capabilities, and per-device settings.
 

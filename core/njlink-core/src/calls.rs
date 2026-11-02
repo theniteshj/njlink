@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Calls (docs/protocol/calls.md): a phone tells its PCs when a call rings,
 //! is answered and ends; a PC can answer, decline or silence it. The call's
 //! audio stays on the phone.

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Links and power between this PC and paired phones
 //! (docs/protocol/actions.md): links a phone shares (web URLs, YouTube/video
 //! links with playback timestamps, and `geo:` / map locations) open in the

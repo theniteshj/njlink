@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Calls on a phone (docs/protocol/calls.md): a ringing Windows
 //! notification to answer, decline or silence the call (its audio stays on
 //! the phone), the call in progress (for Home's call card and a quiet

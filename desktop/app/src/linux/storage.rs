@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Linux on-demand phone storage mount (`~/NJLink/<Phone name>`) via the
 //! Linux kernel FUSE (`/dev/fuse` + `fusermount3`) protocol, plus GTK3
 //! (`~/.config/gtk-3.0/bookmarks`) and KDE/freedesktop (`~/.local/share/user-places.xbel`)

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! [`Node`]: the core's entry point. Owns the network endpoint, the trust
 //! store, live sessions and one reconnect supervisor per paired device.
 

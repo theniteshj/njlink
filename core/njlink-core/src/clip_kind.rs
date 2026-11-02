@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Smart clipboard classification ("context chips").
 //!
 //! Inspects plain-text clipboard items and suggests at most one fitting

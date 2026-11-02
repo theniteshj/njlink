@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! OBS Studio control for Deck tiles (`obs:record`, `obs:scene:<name>`, ...) over the
 //! obs-websocket v5 protocol that ships with OBS 28 and later.
 //!

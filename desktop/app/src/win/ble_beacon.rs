@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! PC BLE proximity beacon (`docs/protocol/discovery.md`): broadcasts a compact
 //! 13-byte Bluetooth Low Energy manufacturer-data frame (`COMPANY_ID = 0xFFFF`,
 //! `"NCTR\x01"` + 8-byte `DeviceId` prefix) so nearby phones can wake discovery

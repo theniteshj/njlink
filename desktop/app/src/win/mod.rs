@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Windows integration: system facts, single instance, tray, power and
 //! network notifications, ringing. Window chrome lives in C++
 //! (`cpp/native_window.cpp`) because it hooks Qt's native event handling.

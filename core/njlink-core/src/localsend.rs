@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Clean-room Rust implementation of the LocalSend Protocol v2.1
 //! (https://github.com/localsend/protocol, MIT License, Copyright (c)
 //! 2022-2024 Tien Do Nam). No Dart code from LocalSend is used.

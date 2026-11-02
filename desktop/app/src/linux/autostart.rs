@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! XDG autostart management (`~/.config/autostart/njlink.desktop`) on Linux.
 
 use std::{

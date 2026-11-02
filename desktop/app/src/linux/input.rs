@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Synthesizes mouse and keyboard input on Linux for a paired phone acting as
 //! a touchpad, keyboard, or presentation remote (`docs/protocol/remote.md`),
 //! as well as reverse PC mirror touch injection.

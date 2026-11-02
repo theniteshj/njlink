@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Linux platform integration (`desktop/app/src/linux/`), matching the public
 //! API of `desktop/app/src/win/`.
 

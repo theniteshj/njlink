@@ -1,4 +1,4 @@
-﻿# Phone as webcam (v1)
+# Phone as webcam (v1)
 
 Uses a paired phone's camera as a webcam on a PC. Control messages travel on
 the session's control stream ([protocol v0](v0.md) §4); encoded video frames

@@ -1,4 +1,4 @@
-﻿# Trademark policy
+# Trademark policy
 
 The NJLINK source code is open source, but the **NJLINK name and
 logo** are not covered by the software licenses. This policy exists so that

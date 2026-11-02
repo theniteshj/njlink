@@ -1,4 +1,4 @@
-﻿# Voice recorder (`recorder`)
+# Voice recorder (`recorder`)
 
 Records a voice note on the phone and sends it to a paired PC through the
 resumable `files` stream (`docs/protocol/files.md`), along with any markers

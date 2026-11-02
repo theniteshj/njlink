@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The Windows clipboard: watching for copied text and images, reading them
 //! and writing what a phone sent (docs/protocol/clipboard.md).
 //!

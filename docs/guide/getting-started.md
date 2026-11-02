@@ -1,4 +1,4 @@
-﻿# Getting Started
+# Getting Started
 
 This guide walks you through installing NJLINK on Windows, Linux and Android, completing the first-run setup walkthrough, pairing your devices, and choosing the Android power level that fits how you work.
 

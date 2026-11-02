@@ -1,4 +1,4 @@
-﻿# Known Limitations
+# Known Limitations
 
 NJLINK aims to be completely transparent about what works out of the box, what requires an optional setup step, and what is restricted by the Windows 11 or Android operating systems or device hardware.
 

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The installer's and the uninstaller's windows, and the work behind them.
 //!
 //! `NJLink-<version>-x64-setup.exe` (NSIS, `desktop/installer`) unpacks

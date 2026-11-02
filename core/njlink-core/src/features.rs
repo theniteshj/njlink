@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! The capability matrix (docs/architecture/capabilities.md): for every
 //! feature and paired device, whether the feature is available, partly
 //! available, locked behind something the user can do, or unsupported.

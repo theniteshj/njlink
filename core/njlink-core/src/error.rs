@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 use njlink_protocol::{ErrorCode, ProtocolError, pairing::PairingUriError};
 
 /// Which side of a connection an issue is on.

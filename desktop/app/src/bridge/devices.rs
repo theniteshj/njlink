@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `DeviceList`: the paired devices as a Qt list model, updated in place
 //! (insert, remove, change) so QML delegates keep their state and animate.
 

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 #pragma once
 
 #define njlink_video_decoder_create builtin_video_decoder_create

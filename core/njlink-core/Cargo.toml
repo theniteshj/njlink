@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "njlink-core"
 description = "NJLINK engine: identity, pairing, sessions and storage"
 license = "MPL-2.0"

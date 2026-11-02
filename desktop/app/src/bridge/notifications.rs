@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `NotificationList`: phone notifications (newest first) as a Qt list
 //! model, plus the commands QML runs on them.
 

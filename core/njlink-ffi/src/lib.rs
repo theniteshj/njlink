@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! UniFFI bindings for `njlink-core`, used by the Android app.
 //!
 //! The boundary uses plain records and enums (see

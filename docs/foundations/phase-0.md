@@ -1,4 +1,4 @@
-﻿# Phase 0: Foundations, execution plan
+# Phase 0: Foundations, execution plan
 
 Goal: prove the risky parts early and build the skeleton every later feature
 plugs into. Phase 0 ends when the exit criteria at the bottom are met.

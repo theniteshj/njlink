@@ -1,4 +1,4 @@
-﻿#!/bin/sh
+#!/bin/sh
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 # Installs NJLINK on Linux, with everything it needs, and shows each step

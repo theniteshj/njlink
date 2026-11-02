@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Instant Hotspot, the PC's half: after the phone turns its hotspot on (Home's
 //! Instant Hotspot, through Elevated), the PC joins it, using the Wi-Fi network
 //! the user picked for that phone in Settings. That's a network Windows has

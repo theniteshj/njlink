@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/brand/icon.svg" alt="" width="96" height="96">
 

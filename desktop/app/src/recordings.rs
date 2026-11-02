@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Voice recordings received from a paired phone (docs/protocol/recorder.md):
 //! naming by date and time without overwriting, optional Media Foundation
 //! conversion (`M4A` kept as recorded, `MP3`, `WAV`, or `FLAC`), marker sidecar

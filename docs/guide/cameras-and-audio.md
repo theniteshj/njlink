@@ -1,4 +1,4 @@
-﻿# Cameras and Audio
+# Cameras and Audio
 
 NJLINK lets your PC use your phone's cameras and audio hardware in four ways: streaming your phone's camera as a Windows webcam (`NJLINK Webcam`), snapping photos or scanning documents straight into your PC clipboard (**Continuity Camera**), playing your PC's system audio through your phone (**Phone as speaker**), and recording voice notes on your phone that land automatically on your PC (**Voice recorder**).
 

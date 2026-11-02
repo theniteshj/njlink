@@ -1,4 +1,4 @@
-﻿# Privacy and Security
+# Privacy and Security
 
 NJLINK is built so that your personal data stays on your own devices under your direct control. There is no user account, no cloud database, no analytics or telemetry, and no advertising SDK. Every connection between your phone and your PC is mutually authenticated and encrypted end to end.
 

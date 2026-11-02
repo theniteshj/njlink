@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Linux system tray, global hotkeys, active external window tracking/focus
 //! for Continuity Camera & File Shelf, and D-Bus sleep/resume + XDG Desktop
 //! Portal appearance change listeners.

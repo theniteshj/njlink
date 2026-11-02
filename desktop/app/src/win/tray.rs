@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The notification-area (tray) icon and its menu, plus the system
 //! broadcasts a hidden top-level window receives: resume from sleep and
 //! theme/animation setting changes.

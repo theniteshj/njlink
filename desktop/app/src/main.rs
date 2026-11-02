@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! NJLINK for Windows.
 //!
 //! One process: Rust runs the core (`njlink-core`) and OS integration,

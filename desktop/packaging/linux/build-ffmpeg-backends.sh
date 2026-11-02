@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Build ABI adapters for the FFmpeg versions used by supported distributions.
 set -euo pipefail

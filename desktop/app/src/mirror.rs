@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! A phone's screen on this PC (docs/protocol/mirror.md): asks the phone,
 //! decodes its video on a thread of its own and hands each picture to the
 //! mirror window's `VideoView`. Only the newest picture is shown; when the

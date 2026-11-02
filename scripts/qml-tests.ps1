@@ -1,4 +1,4 @@
-﻿# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 <#
 .SYNOPSIS
   Runs the desktop app's QML tests (desktop/app/tests/qml/tst_*.qml).

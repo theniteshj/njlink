@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Scale and performance checks, and the relayed wake and PC audio round trip.
 //!
 //! The scale checks move gigabytes and hold timing limits, so they depend on

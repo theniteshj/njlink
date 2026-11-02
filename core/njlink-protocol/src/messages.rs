@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Message bodies for protocol v0 (protocol §5, §7, §9).
 
 use serde::{Deserialize, Serialize};

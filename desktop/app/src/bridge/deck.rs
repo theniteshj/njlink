@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `DeckController`: QML bridge for the PC-owned Deck editor and live preview.
 
 #![allow(clippy::too_many_arguments)]

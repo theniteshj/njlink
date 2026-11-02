@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Contacts (docs/protocol/contacts.md): a PC lists and searches a phone's
 //! contacts (favorites first, then alphabetical) with their phone numbers and
 //! small photos; the phone says when its contacts change.

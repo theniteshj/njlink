@@ -1,4 +1,4 @@
-﻿# Photos
+# Photos
 
 The **Photos** page on your PC gives you instant access to your phone's camera roll, screenshots, and albums without plugging in a cable or uploading your gallery to a cloud photo service. You can browse thumbnails grouped by day, inspect full-resolution photos, drag images straight into File Explorer or desktop editing apps, and get notified on your PC the moment you take a new photo or screenshot on your phone.
 

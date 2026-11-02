@@ -1,4 +1,4 @@
-﻿# Changelog
+# Changelog
 
 All notable changes to NJLINK. Versions follow
 [semantic versioning](https://semver.org); before 1.0, a minor version may

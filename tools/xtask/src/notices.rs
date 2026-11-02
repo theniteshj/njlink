@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `cargo xtask notices <out> [--target <triple>]`: the third-party notices
 //! shipped with the Windows app. Every crate compiled into the app (normal
 //! dependencies for that target; not build or dev ones) with its license

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Text and chat messages on the PC (docs/protocol/sms.md,
 //! docs/protocol/notifications.md §2.3): a phone's SMS conversations and
 //! mirrored MessagingStyle chat conversations, read on demand and unified in

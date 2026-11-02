@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Running a process with root privileges on Linux via `pkexec` (Polkit).
 
 use std::{

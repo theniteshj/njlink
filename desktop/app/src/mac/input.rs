@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! macOS activity detection and synthetic input stubs.
 
 use njlink_core::{ButtonAction, KeyMod, MouseButton, SlideAction, TouchAction};

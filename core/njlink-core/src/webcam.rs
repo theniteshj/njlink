@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Phone as webcam (`docs/protocol/webcam.md`): a phone streams encoded H.264 or HEVC
 //! video from its camera on a dedicated QUIC stream (`webcam/video`), either
 //! started directly from the phone's Webcam screen or after the phone's user

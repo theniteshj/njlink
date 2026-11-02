@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Find-My-PC audible alarm on Linux: synthesizes a two-tone 880 Hz / 1320 Hz
 //! RIFF/WAVE alarm and loops playback via `paplay`, `pw-play`, `aplay`, or
 //! `canberra-gtk-play` until stopped or 60 seconds elapse.

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Runs `njlink-core` beside Qt: a small Tokio runtime owns the [`Node`],
 //! core events are folded into the [`Hub`], and Qt objects issue commands
 //! through [`spawn`]. The UI starts before the node, which comes up in the

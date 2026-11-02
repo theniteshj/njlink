@@ -1,4 +1,4 @@
-﻿# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 <#
 .SYNOPSIS
     Checks that every source file starts with an SPDX license header that

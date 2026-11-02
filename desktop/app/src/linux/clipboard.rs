@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The Linux clipboard (`wl-copy`/`wl-paste` on Wayland, `xclip`/`xsel` on X11,
 //! with an in-memory fallback for headless test environments): watching for
 //! copied text and images, reading them, and writing what a phone sent

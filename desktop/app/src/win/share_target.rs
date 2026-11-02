@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Windows Share sheet target (`windows.shareTarget`): receives files, web
 //! links, text, or bitmaps shared from any Windows app (when registered via the
 //! Sparse Package `AppxManifest.xml`) or passed on the command line with

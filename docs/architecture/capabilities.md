@@ -1,4 +1,4 @@
-﻿# Capability matrix
+# Capability matrix
 
 The capability matrix decides, for every feature and every paired device,
 whether the feature is **Available**, **Partial**, **Locked** or

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `MediaList`: what plays on paired devices as a Qt list model, plus the
 //! commands QML sends to those players.
 

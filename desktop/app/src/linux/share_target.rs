@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 // Linux Share Target / freedesktop MIME & URI-scheme handler (`njlink://`, `file://`, URLs).
 
 #![allow(dead_code)]

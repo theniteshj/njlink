@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! The files service (docs/protocol/files.md): sending files to a paired
 //! device on a stream of their own, receiving them, progress, cancelling,
 //! and resuming after a dropped connection.

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Phone quick settings on a PC (`docs/protocol/toggles.md`).
 //!
 //! A phone that offers `toggles.read` sends its current quick settings

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! The NJLINK wire protocol (version 0).
 //!
 //! This crate is pure protocol logic with no networking: device IDs, message

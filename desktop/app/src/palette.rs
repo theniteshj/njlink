@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Shared perceptual color extraction and Bloom tonal scheme builder,
 //! re-exported from [`njlink_core::palette`].
 

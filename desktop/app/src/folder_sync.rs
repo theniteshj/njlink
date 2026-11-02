@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Folder Sync (§3.6 P2): one-way (Phone → PC) and two-way folder
 //! synchronization over the NJLINK storage service (`storage.list`,
 //! `storage.read`, `storage.write`), with conflict-safe renaming so neither

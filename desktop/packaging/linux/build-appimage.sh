@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Builds an AppDir layout (including bundled Qt 6 runtime libraries, plugins,
 # and QML modules) and invokes appimagetool (if present in PATH) to produce

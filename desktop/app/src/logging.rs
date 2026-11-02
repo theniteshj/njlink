@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Logs go to `<data>\logs\njlink.log`, rotated at startup once large,
 //! so a bug report can include them. Set `RUST_LOG` to change verbosity.
 

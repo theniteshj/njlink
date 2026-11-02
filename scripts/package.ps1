@@ -1,4 +1,4 @@
-﻿# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 <#
 .SYNOPSIS
   Builds the Windows app and packs it into an installer.

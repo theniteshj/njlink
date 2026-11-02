@@ -1,4 +1,4 @@
-﻿# NJLINK Technical Documentation
+# NJLINK Technical Documentation
 
 This directory contains engineering documentation for contributors, security reviewers, and systems engineers working on NJLINK. It covers the multi-crate Rust workspace, the Windows Qt 6 + `cxx-qt` desktop application, the Android Jetpack Compose + UniFFI client, the QUIC + TLS 1.3 protocol, the SQLite persistence layer, and the performance verification suite.
 

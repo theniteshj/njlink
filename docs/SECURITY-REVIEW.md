@@ -1,4 +1,4 @@
-﻿# NJLINK Security Review
+# NJLINK Security Review
 
 **Review Date:** 2026-10-10  
 **Scope:** End-to-end audit of every network, local IPC, elevated privilege, shared-memory, and filesystem surface in NJLINK (`njlink-protocol`, `njlink-core`, `njlink-adb`, `njlink-desktop`, `njlink-vcam`, Android app, and `njlink-shell` helper).

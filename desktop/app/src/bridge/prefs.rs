@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `Preferences` and `DeckController`: the app's look, behavior and PC-owned Deck.
 
 #![allow(clippy::too_many_arguments)]

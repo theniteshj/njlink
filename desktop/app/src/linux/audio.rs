@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Linux speaker volume, mute, output device enumeration, microphone mute
 //! state, and event-driven change notifications via PipeWire (`wpctl`) and
 //! PulseAudio (`pactl`).

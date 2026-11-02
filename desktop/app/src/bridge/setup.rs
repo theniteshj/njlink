@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `Setup`: QML singleton behind the installer's and uninstaller's window
 //! (`qml/setup/SetupWindow.qml`; see `crate::setup`).
 

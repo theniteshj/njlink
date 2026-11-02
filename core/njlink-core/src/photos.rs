@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Photos and gallery (docs/protocol/photos.md): a phone announces each new
 //! photo or screenshot to PCs with a preview, lists its albums and items,
 //! serves thumbnails in batches, and sends full photos or videos (as a files

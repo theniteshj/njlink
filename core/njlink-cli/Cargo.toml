@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "njlink-cli"
 description = "NJLINK command-line client for development and scripting"
 license = "GPL-3.0-or-later"

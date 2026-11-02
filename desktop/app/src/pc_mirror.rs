@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Shares the PC's display with a paired phone over `mirror` / `video` (session 0).
 //! Encodes H.264 or HEVC using Media Foundation on Windows and FFmpeg or OpenH264
 //! on Linux, and handles remote touch, keyboard, and pointer input.

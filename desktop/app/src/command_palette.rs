@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Global Command Palette (`PLAN.md` §3.9): instant fuzzy search over local
 //! actions, contacts, conversations, mirrorable apps, quick settings toggles,
 //! navigation pages, clipboard history, and recent files.

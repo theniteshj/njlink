@@ -1,4 +1,4 @@
-﻿# Actions service (protocol v0)
+# Actions service (protocol v0)
 
 > Status: **draft.** Builds on [protocol v0](v0.md); breaking changes are
 > allowed until v1. License: CC BY 4.0.

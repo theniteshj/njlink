@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Events the core pushes to the UI. UIs render from these; they never poll.
 
 use std::path::PathBuf;

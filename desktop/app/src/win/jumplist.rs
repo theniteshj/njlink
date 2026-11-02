@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Windows Taskbar Jump List: quick user tasks when right-clicking the
 //! NJLINK icon on the taskbar or Start menu (`ICustomDestinationList`).
 

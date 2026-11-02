@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! One window's own pixels, with Windows Graphics Capture: what the window
 //! shows even with other windows in front of it, and never theirs. Play on
 //! phone streams a player's window this way, cropped to its video.

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! End-to-end tests: two real nodes talking over localhost.
 
 use std::{

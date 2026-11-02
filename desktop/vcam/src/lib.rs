@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `njlink_vcam`: Windows 11 Media Foundation virtual camera media source
 //! COM DLL and shared-memory frame transport (`docs/protocol/webcam.md`).
 

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Battery alerts: a Windows notification when a phone's battery runs low,
 //! and when it's fully charged. Once each, until the battery has moved on.
 

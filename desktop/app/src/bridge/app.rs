@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `AppController`: app-wide state and commands for QML (core status, this
 //! PC, capabilities, ringing, appearance) plus the tray icon.
 

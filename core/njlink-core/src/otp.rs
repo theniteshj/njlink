@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Smart one-time code (OTP) detection on notification and SMS text.
 //!
 //! Codes are detected locally and never logged or stored in clipboard history.

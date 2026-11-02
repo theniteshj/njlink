@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Pairing primitives (protocol §9): the QR pairing URI, the pairing proof,
 //! and the numeric-comparison commitment and short authentication string.
 

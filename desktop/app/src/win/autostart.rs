@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Starting NJLINK when the user signs in, so phones can reach this PC
 //! without opening it first: a value under the user's `Run` key that starts
 //! it in the tray.

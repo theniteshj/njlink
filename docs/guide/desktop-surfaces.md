@@ -1,4 +1,4 @@
-﻿# Desktop Surfaces and Automation
+# Desktop Surfaces and Automation
 
 Beyond the main window, NJLINK integrates into Windows 11 with fast, low-overhead desktop surfaces and automation tools: the slide-out **`Shelf`** edge panel, **`Nectar Island`** at the top of your screen, the searchable cross-device **`Timeline`**, the global **`Command Palette`** (`Ctrl+Alt+Space`), rich **`Handoff`** for links, maps, videos, and documents, **`notify-when`** process completion alerts, a trigger-action **Rules Engine**, a local authenticated **HTTP API**, a **PowerToys Command Palette** extension, and the `njlink` command-line client.
 

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone storage in File Explorer (`docs/protocol/storage.md`, `PLAN.md` §3.6).
 //!
 //! Registers a Windows Cloud Files (`cfapi`) sync root per paired phone under

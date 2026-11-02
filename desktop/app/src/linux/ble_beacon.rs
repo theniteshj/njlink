@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Bluetooth through BlueZ over D-Bus. Broadcasts the PC's proximity beacon
 //! (company `0xFFFF`, `NCTR\x01` + 8-byte device ID prefix, as on Windows) so
 //! phones set to "Wake when PC is nearby" find it, and, when walk-away

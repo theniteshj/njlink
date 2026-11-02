@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `Pairing`: drives the pairing screen. Shows a QR code that refreshes
 //! itself until a phone pairs, lists nearby devices for code pairing, and
 //! handles the 6-digit code check.

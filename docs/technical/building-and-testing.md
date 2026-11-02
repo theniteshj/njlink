@@ -1,4 +1,4 @@
-﻿# Building and Testing
+# Building and Testing
 
 This document covers the pinned toolchain versions, environment variables, build commands, and test suites required to build and verify NJLINK on Windows and Android.
 

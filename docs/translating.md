@@ -1,4 +1,4 @@
-﻿# Translating NJLINK
+# Translating NJLINK
 
 NJLINK's Android and Windows apps can be translated into any language.
 Simplified Chinese, German and Turkish are complete today.

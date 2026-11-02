@@ -1,4 +1,4 @@
-﻿# Input and Control
+# Input and Control
 
 NJLINK lets you control your PC from your phone and control your phone from your PC. Use your phone as a multi-touch trackpad, gyroscope air mouse, remote keyboard, voice dictation mic, presentation clicker with a laser pointer, `Deck` macro pad, or bedside `Desk clock` display. Going the other way, type on your phone from your PC keyboard without screen mirroring, toggle phone system settings from PC Home, or lock, sleep, and wake your PC remotely.
 

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Automations ("When X, Do Y", §3.11 P2): lightweight event-driven rules
 //! persisted in `settings.json` (`automation_rules`).
 

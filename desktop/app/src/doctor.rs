@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The Connection Doctor: why a phone can't reach this PC, in plain words,
 //! and a button to fix what can be fixed from here (the firewall, the
 //! network's profile, reconnecting).

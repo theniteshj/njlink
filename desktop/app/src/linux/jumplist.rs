@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 // Linux equivalent of Jump List tasks via freedesktop.org `.desktop` Desktop Actions
 // (`~/.local/share/applications/njlink.desktop` + hicolor app icon).
 //

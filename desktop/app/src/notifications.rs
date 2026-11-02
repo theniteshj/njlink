@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone notifications on this PC: app icons are saved for QML and toasts,
 //! notifications become Windows toasts (removed again when the phone clears
 //! them), and what the user does with a toast or the feed goes back to the

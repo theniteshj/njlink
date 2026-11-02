@@ -1,4 +1,4 @@
-﻿# Architecture
+# Architecture
 
 NJLINK is built around a shared Rust core library (`njlink-core`) that implements peer discovery, cryptographic identity, QUIC session management, capability negotiation, persistent storage, and media/file framing. Native platform shells on Windows (`desktop/app`) and Android (`android/app`) bind directly to this core and provide OS integration and UI rendering.
 

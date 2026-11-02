@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "njlink-vcam"
 description = "NJLINK virtual camera Media Foundation media source (Windows 11)"
 version.workspace = true

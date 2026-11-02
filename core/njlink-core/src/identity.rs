@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! The device key: created on first launch, stored encrypted at rest.
 
 use std::{

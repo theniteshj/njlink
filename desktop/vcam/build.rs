@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Gives the DLL its version information (what Explorer shows, and what code
 //! signing checks: the product name and version must match the app's).
 

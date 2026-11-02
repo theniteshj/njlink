@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The clipboard between this PC and paired phones
 //! (docs/protocol/clipboard.md): what the user copies (text or an image)
 //! goes to connected phones (unless turned off in Settings), "Send

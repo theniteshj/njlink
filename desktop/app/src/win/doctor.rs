@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! What the Connection Doctor looks at on Windows: the firewall's rules for
 //! this app, the network's profile (Public networks hide the PC), whether
 //! there's a network at all, and VPNs, which often keep phones out.

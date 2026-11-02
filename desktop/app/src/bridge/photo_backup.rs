@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `PhotoBackup`: QML singleton for Settings › Files & Sync › Photo backup
 //! (crate::photo_backup): each paired phone's backup, on or off, its folder,
 //! and what it's doing.

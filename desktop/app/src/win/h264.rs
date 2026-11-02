@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Video decoding with Windows' own decoders (Media Foundation's H.264
 //! MFT, licensed with Windows, and the HEVC and AV1 video extensions where
 //! installed), in low-latency mode: each access unit in, its picture out

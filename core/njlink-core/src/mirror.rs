@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Screen mirroring (docs/protocol/mirror.md): a PC asks a phone for its
 //! screen; once the phone's user agrees, the phone streams encoded video
 //! on a stream of its own, which the PC decodes and shows.

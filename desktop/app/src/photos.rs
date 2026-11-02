@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Photos and videos from a phone (docs/protocol/photos.md):
 //! - Windows notification with preview when a new photo or screenshot is taken,
 //!   to open, save, or copy it.

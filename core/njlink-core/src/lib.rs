@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! The NJLINK engine: device identity, pairing, sessions with paired
 //! devices, and storage. Shared by the Windows and Android apps.
 //!

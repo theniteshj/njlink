@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Tests install.sh and the package scripts without building the app: makes
 # the .deb, .rpm and tarball around a stand-in program (/bin/true), then has

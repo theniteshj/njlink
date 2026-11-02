@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Hardware video encoding through the optional FFmpeg runtime libraries.
 
 use std::{

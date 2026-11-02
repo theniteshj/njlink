@@ -1,4 +1,4 @@
-﻿# Calls
+# Calls
 
 The **Calls** page on your PC lets you see incoming phone calls with caller ID, answer or decline them from your desk, reject a call with a quick SMS reply, dial numbers from a keypad, browse your recent call history and contacts, and control active calls.
 

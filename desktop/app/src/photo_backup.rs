@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Photo backup: copies a phone's new photos (and, if chosen, videos) into a
 //! folder on this PC, filed by year and month, over the photos service
 //! (docs/protocol/photos.md). It only needs the phone's photos permission,

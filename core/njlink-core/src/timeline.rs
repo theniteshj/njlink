@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Local timeline of items shared between paired devices: files and folders,
 //! clipboard items (linked by ID without duplicating content), links opened,
 //! saved photos, voice recordings, and mirroring / webcam sessions.

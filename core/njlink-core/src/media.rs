@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Media control between devices (docs/protocol/media.md).
 //!
 //! A device that shares its players (`media.control`) keeps every allowed

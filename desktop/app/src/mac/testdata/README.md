@@ -1,4 +1,4 @@
-﻿# Synthetic H.264 fixture
+# Synthetic H.264 fixture
 
 `red-32x32.annexb` is an original, one-frame solid-red 32x32 test pattern,
 created locally without camera, microphone, screen capture or personal data.

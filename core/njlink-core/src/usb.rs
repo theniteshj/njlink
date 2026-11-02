@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! USB cable transport and USB auto-pairing via ADB port forwarding.
 //!
 //! When a phone is plugged into a PC over USB with USB debugging enabled:

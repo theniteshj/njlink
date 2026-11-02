@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! PC Notifications → Phone (§3.2 P2): forwards selected PC notifications to
 //! connected phones when `forward_pc_notifications_to_phone` is enabled in
 //! Settings (default `false`, privacy-first).

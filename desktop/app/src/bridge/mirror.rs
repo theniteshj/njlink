@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `Mirror`: the phone screens and app windows shown on this PC (each a
 //! window, by key), the phone's apps that open in windows, and the input
 //! QML sends to them.

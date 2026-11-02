@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Notification mirroring (docs/protocol/notifications.md).
 //!
 //! On the phone, [`Feed`] holds the notifications currently showing (as the

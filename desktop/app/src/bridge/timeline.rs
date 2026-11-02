@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `TimelineModel`: paged, searchable local history of everything that moved
 //! between this PC and paired devices (files, folders, clipboard items, links,
 //! saved photos, voice recordings, and screen mirroring / webcam sessions).

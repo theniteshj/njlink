@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The window a player shows in, for Play on phone: which top-level window
 //! belongs to a media session, the address of the page a browser plays in,
 //! and where on screen the video is, read through UI Automation.

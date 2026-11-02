@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone Status desktop widget snapshot and Adaptive Card provider (`--widget-provider`)
 //! on Linux, matching `desktop/app/src/win/widget.rs`.
 

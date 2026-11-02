@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 #if defined(TEST_BUILTIN) || defined(TEST_PLUGIN)
 #ifdef TEST_BUILTIN
 #include "../cpp/linux_video_builtin.h"

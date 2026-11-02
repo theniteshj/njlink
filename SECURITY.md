@@ -1,4 +1,4 @@
-﻿# Security policy
+# Security policy
 
 NJLINK handles sensitive data such as notifications, messages, one-time
 codes and files, so security reports are taken seriously.

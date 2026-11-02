@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! What plays on a phone, exported to Linux desktop media controls (MPRIS2
 //! D-Bus service `org.mpris.MediaPlayer2.njlink` on `/org/mpris/MediaPlayer2`
 //! and atomic JSON state snapshot).

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Relayed Wake-on-LAN (`wake.relay`) magic packet broadcaster.
 
 use std::net::{Ipv4Addr, SocketAddrV4, UdpSocket};

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Rich Handoff helpers (`docs/PLAN.md` §3.11):
 //! - Map locations (`geo:` URIs and Google / Apple / Bing / OpenStreetMap links)
 //! - YouTube and video links with playback timestamps (`t=`, `start=`, `#t=`)

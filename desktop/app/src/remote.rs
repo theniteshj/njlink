@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Dispatches remote touchpad, keyboard and presentation input from a paired
 //! phone to `win::input` and updates the laser pointer overlay state.
 

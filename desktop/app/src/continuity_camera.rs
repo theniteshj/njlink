@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Continuity Camera coordinator for Windows: initiates "Take photo with phone"
 //! and "Scan document with phone" from the tray menu, global hotkeys, or the
 //! NJLINK UI, remembers the external foreground window (`HWND`) that was

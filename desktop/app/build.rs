@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Builds the QML module `app.njlink` (QML files compiled ahead of time,
 //! Rust QObjects, C++ helpers), compiles in the bundled fonts, gives the
 //! executable its icon and version information, and links the Windows

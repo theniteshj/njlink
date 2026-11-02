@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Phone as microphone (`docs/protocol/mic.md`): a phone streams its
 //! microphone as 16-bit PCM on a dedicated QUIC stream (`mic/pcm`), after
 //! its user accepts a PC's `mic.start` (or starts it on the phone).

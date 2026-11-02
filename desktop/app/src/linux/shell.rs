@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Opening URLs, files, folders, and power actions (lock, sleep) on Linux via
 //! XDG Desktop Portals, `org.freedesktop.FileManager1`, `xdg-open`, `loginctl`, and `systemctl`.
 

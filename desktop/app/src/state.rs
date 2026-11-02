@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! What the UI shows, kept in plain Rust: the core's events and the UI's own
 //! commands are folded into [`AppState`], and Qt objects are told which parts
 //! changed so they can refresh. Nothing here touches Qt, so it is unit-tested.

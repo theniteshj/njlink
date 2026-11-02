@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! One-shot actions on a paired device (docs/protocol/actions.md): lock or
 //! sleep a PC, and open a link on the other device.
 

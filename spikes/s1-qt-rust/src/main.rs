@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Spike S1: can Qt Quick + Rust deliver the NJLINK design within the
 //! performance budgets? See README.md for what is measured and the results.
 

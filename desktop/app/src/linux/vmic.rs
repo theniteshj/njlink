@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Phone-as-Microphone virtual audio source on Linux via PulseAudio / PipeWire
 //! `module-pipe-source`, including FIFO creation (`mkfifo`), non-blocking PCM
 //! writes, gain/mute processing, and RMS level metering.

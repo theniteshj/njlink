@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Media Foundation custom media source (`IMFMediaSourceEx`, `IMFMediaStream2`,
 //! `IMFMediaEventGenerator`, `IMFGetService`, `IClassFactory`) for the NJLINK
 //! virtual camera.

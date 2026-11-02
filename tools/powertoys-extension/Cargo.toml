@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "njlink-ptrun"
 description = "PowerToys Run & Command Palette extension helper for NJLINK"
 version = "0.0.1"

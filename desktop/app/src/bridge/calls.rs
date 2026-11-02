@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! `PhoneCall`: the call in progress on the phone Home and Calls show, the
 //! controls QML sends to it, the phone's call log and contacts, and dialing
 //! a number from the PC.

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Which paired device the PC is controlling (a mirror window the mouse is in,
 //! or a remote control session), and the clipboard following along: with
 //! `flow_follow_clipboard` on, the PC's clipboard goes to the device when

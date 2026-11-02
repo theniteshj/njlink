@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Optional cross-process NV12 transport. Its separate versioned control mapping
 //! leaves the existing RGB transport usable by older app/DLL combinations.
 //! Each reader owns a stable GPU snapshot. Keyed mutexes protect shared slots;

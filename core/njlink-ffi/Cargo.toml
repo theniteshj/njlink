@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "njlink-ffi"
 description = "UniFFI bindings for njlink-core (used by the Android app)"
 version.workspace = true

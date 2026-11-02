@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Media between this PC and paired phones (docs/protocol/media.md): what
 //! plays on a phone shows in the app and in Windows' media flyout, where
 //! it can be controlled; what plays on this PC goes to the phones (see

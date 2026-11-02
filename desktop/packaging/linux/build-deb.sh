@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Builds a Debian/Ubuntu .deb package for NJLINK Desktop:
 #   dist/njlink_<version>_<arch>.deb

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 # SPDX-License-Identifier: GPL-3.0-or-later
 # Builds a Fedora/openSUSE .rpm package for NJLINK Desktop from the .deb
 # that build-deb.sh made, so both install exactly the same files:

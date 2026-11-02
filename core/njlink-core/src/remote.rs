@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Phone as touchpad, keyboard and presentation remote (`docs/protocol/remote.md`).
 
 use std::{

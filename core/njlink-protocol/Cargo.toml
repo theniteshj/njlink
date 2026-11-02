@@ -1,4 +1,4 @@
-﻿[package]
+[package]
 name = "njlink-protocol"
 description = "NJLINK wire protocol: message types, framing and pairing primitives"
 license = "MPL-2.0"

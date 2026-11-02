@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! HTTPS GET with Windows' own HTTP stack (WinHTTP): the system's TLS,
 //! proxy settings and certificates, and no extra dependencies. Used to
 //! check for updates and download them.

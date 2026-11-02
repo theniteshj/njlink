@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The Windows 11 Widgets board: no NJLINK widget yet (#85). A provider
 //! needs the Windows App SDK and a registered package; until it's built, the
 //! package doesn't offer one, and `--widget-provider` (from a package that an

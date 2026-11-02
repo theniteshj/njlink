@@ -1,4 +1,4 @@
-﻿# `njlink-core` public interface (Phase 0 draft)
+# `njlink-core` public interface (Phase 0 draft)
 
 This is the boundary between the shared Rust core and the two apps. The
 desktop app calls it directly from Rust (and exposes it to QML through

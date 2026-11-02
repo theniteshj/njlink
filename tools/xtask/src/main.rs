@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Repository automation. Run as `cargo xtask <task>`.
 //!
 //! - `tokens`: generates the desktop and Android themes

@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! macOS speaker volume, mute, and state.
 
 fn parse_speaker_state(text: &str) -> Option<(u8, bool)> {

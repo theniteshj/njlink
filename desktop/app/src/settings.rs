@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The desktop app's own preferences (look and behavior), stored as JSON next
 //! to the core's data. Device settings live in the core.
 

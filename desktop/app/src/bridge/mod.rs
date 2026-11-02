@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! The Qt objects QML talks to. Each one is a thin view over the shared
 //! [`crate::state::Hub`]: it subscribes to the parts it shows and refreshes
 //! on the Qt thread, coalesced so a burst of core events costs one refresh

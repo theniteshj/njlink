@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! The pairing ceremony (protocol §9) over the `njlink-pair/0` ALPN.
 //!
 //! Two flows:

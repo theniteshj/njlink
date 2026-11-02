@@ -1,4 +1,4 @@
-﻿# Settings Reference
+# Settings Reference
 
 This page explains every setting in the Windows 11 app and the Android app one by one, including its exact in-app label, default value, and what changing it does.
 

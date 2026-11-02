@@ -1,4 +1,4 @@
-﻿# NJLINK Performance Budgets & Measurements
+# NJLINK Performance Budgets & Measurements
 
 This document records the release performance budgets, root-cause regression audits, and measured BEFORE/AFTER results across the Windows Desktop app (`njlink-desktop`), the Rust core engine (`njlink-core`), and the Android companion app (`app.njlink.android`).
 

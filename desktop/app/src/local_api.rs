@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Local authenticated HTTP/JSON automation API (`127.0.0.1:<port>`, default
 //! `53320`, off by default): lets local tools (such as the NJLINK PowerToys
 //! Command Palette / Run extension, Raycast scripts, AutoHotkey, or CLI scripts)

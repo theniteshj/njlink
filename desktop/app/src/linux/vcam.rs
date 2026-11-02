@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Linux Virtual Camera (`v4l2loopback`) discovery, registration, and
 //! shared-memory-to-V4L2 YUYV frame output for `"NJLINK Webcam"`.
 

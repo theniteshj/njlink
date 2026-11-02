@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! Elevated over USB (`docs/protocol/elevated-usb.md`).
 //!
 //! Elevated runs a small helper on the phone as Android's shell user. The

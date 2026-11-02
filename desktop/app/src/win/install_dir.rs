@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Where setup installs the app (#102): Program Files by default, or a
 //! folder the user picks.
 //!

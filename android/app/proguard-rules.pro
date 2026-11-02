@@ -1,4 +1,4 @@
-﻿# Keep class and method names readable in release APKs while still letting R8
+# Keep class and method names readable in release APKs while still letting R8
 # shrink unused code and resources, so crash stack traces from users read as
 # they are, without a mapping file.
 -dontobfuscate

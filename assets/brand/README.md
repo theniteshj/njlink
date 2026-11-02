@@ -1,4 +1,4 @@
-﻿# The NJLINK mark
+# The NJLINK mark
 
 The Waggle Dance: two loops, the phone and the PC, around a drop of nectar,
 tilted like the run of a honeybee's waggle dance, which is how bees tell each

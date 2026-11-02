@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Qt calls that cxx-qt-lib doesn't wrap (see `cpp/app_helpers.cpp`).
 
 #[cxx::bridge]

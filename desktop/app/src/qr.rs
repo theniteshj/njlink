@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! QR codes as one SVG path, so QML draws them crisp at any size and scale.
 
 use qrcode::{Color, EcLevel, QrCode};

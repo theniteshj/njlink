@@ -1,4 +1,4 @@
-﻿# Contributing to NJLINK
+# Contributing to NJLINK
 
 Thank you for helping with NJLINK. The project is young, so the codebase
 and these guidelines still change often.

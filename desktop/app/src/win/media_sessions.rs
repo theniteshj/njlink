@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! What plays on this PC, for paired phones (docs/protocol/media.md): the
 //! sessions apps report to Windows (Global System Media Transport
 //! Controls), and commands from a phone sent to them.

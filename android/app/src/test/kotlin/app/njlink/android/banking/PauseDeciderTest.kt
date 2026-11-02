@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 package app.njlink.android.banking
 
 import app.njlink.android.banking.PauseDecider.Action

@@ -1,4 +1,4 @@
-﻿# NJLINK for Android
+# NJLINK for Android
 
 Kotlin + Jetpack Compose (Material 3) on top of the shared Rust core,
 called through UniFFI (`core/njlink-ffi`).

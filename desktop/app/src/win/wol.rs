@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! Reads this PC's physical Ethernet and Wi-Fi adapters with
 //! `GetAdaptersAddresses` and checks (read-only) whether Wake on Magic Packet
 //! is enabled in the network adapter class registry. Never modifies any

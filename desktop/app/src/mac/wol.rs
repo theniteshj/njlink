@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later
 //! macOS Wake-on-LAN integration stubs.
 
 use njlink_core::PcWakeInfo;

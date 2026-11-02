@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: MPL-2.0
 //! The clipboard service (docs/protocol/clipboard.md): copied text and
 //! images sent to a paired device, which puts them on its own clipboard.
 //! Text goes on the control stream; images on a stream of their own.

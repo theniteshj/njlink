@@ -1,4 +1,4 @@
-﻿# Bluetooth HFP & PC Call Audio Architecture (`docs/research/hfp.md`)
+# Bluetooth HFP & PC Call Audio Architecture (`docs/research/hfp.md`)
 
 ## 1. Why Android Blocks Software Wi-Fi Call Audio Capture
 
