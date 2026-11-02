@@ -126,12 +126,18 @@ abstract class UniffiBindgen : DefaultTask() {
 
     @TaskAction
     fun generate() {
+        val configFile = workspace.file("core/njlink-ffi/uniffi.toml").get().asFile
         exec.exec {
             workingDir = workspace.get().asFile
             commandLine(
-                "cargo", "run", "--quiet", "--locked", "-p", "njlink-ffi", "--features", "bindgen",
-                "--bin", "uniffi-bindgen", "--", "generate", "--library", library.get().asFile.path,
-                "--language", "kotlin", "--no-format", "--out-dir", outputDir.get().asFile.path,
+                buildList {
+                    addAll(listOf("cargo", "run", "--quiet", "--locked", "-p", "njlink-ffi", "--features", "bindgen",
+                        "--bin", "uniffi-bindgen", "--", "generate", "--library", library.get().asFile.path))
+                    if (configFile.exists()) {
+                        addAll(listOf("--config", configFile.path))
+                    }
+                    addAll(listOf("--language", "kotlin", "--no-format", "--out-dir", outputDir.get().asFile.path))
+                }
             )
         }
     }
