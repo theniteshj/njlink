@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
+import java.io.File
 import javax.inject.Inject
 
 plugins {
@@ -126,7 +127,7 @@ abstract class UniffiBindgen : DefaultTask() {
 
     @TaskAction
     fun generate() {
-        val configFile = workspace.file("core/njlink-ffi/uniffi.toml").get().asFile
+        val configFile = workspace.file("uniffi-global.toml").get().asFile
         exec.exec {
             workingDir = workspace.get().asFile
             commandLine(
@@ -139,6 +140,20 @@ abstract class UniffiBindgen : DefaultTask() {
                     addAll(listOf("--language", "kotlin", "--no-format", "--out-dir", outputDir.get().asFile.path))
                 }
             )
+        }
+
+        // Failsafe: guarantee that generated bindings are always available in app.njlink.core package
+        val out = outputDir.get().asFile
+        val targetDir = File(out, "app/njlink/core")
+        val fallbackDir = File(out, "uniffi/njlink_ffi")
+        if (fallbackDir.exists() && (!targetDir.exists() || targetDir.listFiles().isNullOrEmpty())) {
+            targetDir.mkdirs()
+            fallbackDir.listFiles()?.forEach { file ->
+                if (file.isFile && file.extension == "kt") {
+                    val content = file.readText().replace("package uniffi.njlink_ffi", "package app.njlink.core")
+                    File(targetDir, file.name).writeText(content)
+                }
+            }
         }
     }
 }

@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MPL-2.0
+
+[crate-roots]
+njlink_ffi = "core/njlink-ffi"
+"njlink-ffi" = "core/njlink-ffi"
+
+[defaults.bindings.kotlin]
+package_name = "app.njlink.core"
+cdylib_name = "njlink_ffi"
+
+[crates.njlink_ffi.bindings.kotlin]
+package_name = "app.njlink.core"
+cdylib_name = "njlink_ffi"
+
+[crates."njlink-ffi".bindings.kotlin]
+package_name = "app.njlink.core"
+cdylib_name = "njlink_ffi"
