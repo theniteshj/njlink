@@ -38,6 +38,7 @@ captures/
 *.ap_
 *.dex
 android/**/jniLibs/
+android/app/src/main/kotlin/app/njlink/core/njlink_ffi.kt
 
 # ---- IDEs and editors ----
 .idea/

@@ -147,11 +147,34 @@ abstract class UniffiBindgen : DefaultTask() {
         // Guarantee that generated bindings are always placed in app.njlink.core package
         val allKtFiles = out.walkTopDown().filter { it.isFile && it.extension == "kt" }.toList()
         println("[UniffiBindgen] Generated Kotlin file count: ${allKtFiles.size}")
+        if (allKtFiles.isEmpty()) {
+            throw GradleException("UniFFI did not generate any Kotlin binding files in ${out.path}")
+        }
         allKtFiles.forEach { file ->
             println("[UniffiBindgen] Processing generated file: ${file.path}")
             var content = file.readText()
             content = content.replaceFirst(Regex("""^package\s+[^\r\n]+""", RegexOption.MULTILINE), "package app.njlink.core")
             content = content.replace("uniffi.njlink_ffi", "app.njlink.core")
+
+            // UniFFI's casing rules (via heck ToUpperCamelCase) convert 'NJLink' into 'NjLink'.
+            // Map them to 'NJLink' to match the Android Kotlin codebase.
+            content = content.replace("NjLinkNode", "NJLinkNode")
+            content = content.replace("NjlinkNode", "NJLinkNode")
+            content = content.replace("NjLinkException", "NJLinkException")
+            content = content.replace("NjlinkException", "NJLinkException")
+            content = content.replace("NjLinkError", "NJLinkError")
+            content = content.replace("NjlinkError", "NJLinkError")
+
+            content += """
+
+// Compatibility typealiases for NjLink / NJLink
+typealias NjLinkNode = NJLinkNode
+typealias NjLinkException = NJLinkException
+typealias NjlinkNode = NJLinkNode
+typealias NjlinkException = NJLinkException
+"""
+
+            file.writeText(content)
             
             // Mirror directly into src/main/kotlin so Kotlin compiler unconditionally compiles it
             val srcDestFile = project.file("src/main/kotlin/app/njlink/core/${file.name}")
