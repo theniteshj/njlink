@@ -132,7 +132,7 @@ abstract class UniffiBindgen : DefaultTask() {
             workingDir = workspace.get().asFile
             commandLine(
                 buildList {
-                    addAll(listOf("cargo", "run", "--quiet", "--locked", "-p", "njlink-ffi", "--features", "bindgen",
+                    addAll(listOf("cargo", "run", "--locked", "-p", "njlink-ffi", "--features", "bindgen",
                         "--bin", "uniffi-bindgen", "--", "generate", "--library", library.get().asFile.path))
                     if (configFile.exists()) {
                         addAll(listOf("--config", configFile.path))
@@ -142,19 +142,24 @@ abstract class UniffiBindgen : DefaultTask() {
             )
         }
 
-        // Failsafe: guarantee that generated bindings are always available in app.njlink.core package
+        // Guarantee that generated bindings are always placed in app.njlink.core package
         val out = outputDir.get().asFile
-        val targetDir = File(out, "app/njlink/core")
-        val fallbackDir = File(out, "uniffi/njlink_ffi")
-        if (fallbackDir.exists() && (!targetDir.exists() || targetDir.listFiles().isNullOrEmpty())) {
-            targetDir.mkdirs()
-            fallbackDir.listFiles()?.forEach { file ->
-                if (file.isFile && file.extension == "kt") {
-                    val content = file.readText().replace("package uniffi.njlink_ffi", "package app.njlink.core")
-                    File(targetDir, file.name).writeText(content)
-                }
+        val targetDir = File(out, "app/njlink/core").apply { mkdirs() }
+        val allKtFiles = out.walkTopDown().filter { it.isFile && it.extension == "kt" }.toList()
+        println("[UniffiBindgen] Generated Kotlin file count: ${allKtFiles.size}")
+        allKtFiles.forEach { file ->
+            println("[UniffiBindgen] Relocating & verifying package for: ${file.relativeTo(out)}")
+            var content = file.readText()
+            content = content.replaceFirst(Regex("""^package\s+[^\r\n]+""", RegexOption.MULTILINE), "package app.njlink.core")
+            content = content.replace("uniffi.njlink_ffi", "app.njlink.core")
+            val destFile = File(targetDir, file.name)
+            destFile.writeText(content)
+            if (file.absolutePath != destFile.absolutePath) {
+                file.delete()
             }
         }
+        // Clean up any remaining directories other than app
+        out.listFiles()?.filter { it.isDirectory && it.name != "app" }?.forEach { it.deleteRecursively() }
     }
 }
 
@@ -204,6 +209,7 @@ androidComponents {
         }
         variant.sources.jniLibs?.addGeneratedSourceDirectory(cargo, CargoNdkBuild::outputDir)
         variant.sources.java?.addGeneratedSourceDirectory(bindgen, UniffiBindgen::outputDir)
+        variant.sources.kotlin?.addGeneratedSourceDirectory(bindgen, UniffiBindgen::outputDir)
         variant.sources.assets?.addGeneratedSourceDirectory(fonts, BundleFonts::outputDir)
     }
 }
