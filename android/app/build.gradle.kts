@@ -128,6 +128,8 @@ abstract class UniffiBindgen : DefaultTask() {
     @TaskAction
     fun generate() {
         val configFile = workspace.file("uniffi-global.toml").get().asFile
+        val out = outputDir.get().asFile
+        out.mkdirs()
         exec.exec {
             workingDir = workspace.get().asFile
             commandLine(
@@ -137,29 +139,26 @@ abstract class UniffiBindgen : DefaultTask() {
                     if (configFile.exists()) {
                         addAll(listOf("--config", configFile.path))
                     }
-                    addAll(listOf("--language", "kotlin", "--no-format", "--out-dir", outputDir.get().asFile.path))
+                    addAll(listOf("--language", "kotlin", "--no-format", "--out-dir", out.path))
                 }
             )
         }
 
         // Guarantee that generated bindings are always placed in app.njlink.core package
-        val out = outputDir.get().asFile
-        val targetDir = File(out, "app/njlink/core").apply { mkdirs() }
         val allKtFiles = out.walkTopDown().filter { it.isFile && it.extension == "kt" }.toList()
         println("[UniffiBindgen] Generated Kotlin file count: ${allKtFiles.size}")
         allKtFiles.forEach { file ->
-            println("[UniffiBindgen] Relocating & verifying package for: ${file.relativeTo(out)}")
+            println("[UniffiBindgen] Processing generated file: ${file.path}")
             var content = file.readText()
             content = content.replaceFirst(Regex("""^package\s+[^\r\n]+""", RegexOption.MULTILINE), "package app.njlink.core")
             content = content.replace("uniffi.njlink_ffi", "app.njlink.core")
-            val destFile = File(targetDir, file.name)
-            destFile.writeText(content)
-            if (file.absolutePath != destFile.absolutePath) {
-                file.delete()
-            }
+            
+            // Mirror directly into src/main/kotlin so Kotlin compiler unconditionally compiles it
+            val srcDestFile = project.file("src/main/kotlin/app/njlink/core/${file.name}")
+            srcDestFile.parentFile.mkdirs()
+            srcDestFile.writeText(content)
+            println("[UniffiBindgen] Wrote bindings to ${srcDestFile.path} (${srcDestFile.length()} bytes)")
         }
-        // Clean up any remaining directories other than app
-        out.listFiles()?.filter { it.isDirectory && it.name != "app" }?.forEach { it.deleteRecursively() }
     }
 }
 
@@ -202,15 +201,19 @@ androidComponents {
             description = "Generates the Kotlin bindings for the Rust core."
             library.set(cargo.flatMap { it.outputDir.file("${rustAbis.first()}/libnjlink_ffi.so") })
             workspace.set(workspaceDir)
+            outputDir.set(layout.buildDirectory.dir("generated/uniffi/$suffix"))
         }
         val fonts = tasks.register<BundleFonts>("bundleFonts$suffix") {
             description = "Packages the shared fonts as assets."
             this.fonts.set(workspaceDir.dir("assets/fonts"))
         }
         variant.sources.jniLibs?.addGeneratedSourceDirectory(cargo, CargoNdkBuild::outputDir)
-        variant.sources.java?.addGeneratedSourceDirectory(bindgen, UniffiBindgen::outputDir)
-        variant.sources.kotlin?.addGeneratedSourceDirectory(bindgen, UniffiBindgen::outputDir)
         variant.sources.assets?.addGeneratedSourceDirectory(fonts, BundleFonts::outputDir)
+
+        // Ensure Kotlin compilation for this variant always runs after UniFFI bindings have been generated into src/main/kotlin
+        tasks.matching { it.name == "compile${suffix}Kotlin" }.configureEach {
+            dependsOn(bindgen)
+        }
     }
 }
 
