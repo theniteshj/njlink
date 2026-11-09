@@ -420,9 +420,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.6.0"
+version = "1.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f74872d07caf508b30a21f6836e7d7016a2eaf7d9ff4f48deaa58cd8a0407630"
+checksum = "4ff2a8126fff0f8c839080d619675a585e61720bb12d2baceae45769fd66f155"
 dependencies = [
  "find-msvc-tools",
  "jobserver",
@@ -1199,9 +1199,9 @@ checksum = "64cd1e32ddd350061ae6edb1b082d7c54915b5c672c389143b9a63403a109f24"
 
 [[package]]
 name = "find-msvc-tools"
-version = "0.1.14"
+version = "0.1.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aedcfb3409746eddb02b9e19ebda1c3394f759a152e48ee875a0844d1b955484"
+checksum = "1c66915cc5391097de7a2b0b972e8505aa33c0df401fd3a6811dbdb32881ba48"
 
 [[package]]
 name = "fnv"
@@ -2413,144 +2413,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "njlink-adb"
-version = "0.1.4"
-dependencies = [
- "thiserror 2.0.21",
- "tokio",
- "tokio-util",
- "tracing",
-]
-
-[[package]]
-name = "njlink-cli"
-version = "0.1.4"
-dependencies = [
- "anyhow",
- "clap",
- "dirs",
- "hostname",
- "libc",
- "njlink-core",
- "qrcode",
- "serde",
- "serde_json",
- "tempfile",
- "tokio",
- "tracing",
- "tracing-subscriber",
- "windows",
-]
-
-[[package]]
-name = "njlink-core"
-version = "0.1.4"
-dependencies = [
- "blake3",
- "bytes",
- "data-encoding",
- "iroh",
- "iroh-mdns-address-lookup",
- "libc",
- "material-colors",
- "n0-future",
- "njlink-adb",
- "njlink-protocol",
- "noq-proto",
- "rand",
- "ring",
- "rusqlite",
- "rustls",
- "rustls-pki-types",
- "serde",
- "serde_json",
- "sha2",
- "socket2",
- "tempfile",
- "thiserror 2.0.21",
- "tokio",
- "tokio-rustls",
- "tokio-util",
- "tracing",
- "tracing-subscriber",
- "url",
- "windows",
-]
-
-[[package]]
-name = "njlink-desktop"
-version = "0.1.4"
-dependencies = [
- "anyhow",
- "blake3",
- "cc",
- "cxx",
- "cxx-qt",
- "cxx-qt-build",
- "cxx-qt-lib",
- "data-encoding",
- "dirs",
- "embed-resource",
- "hostname",
- "libc",
- "material-colors",
- "njlink-core",
- "njlink-vcam",
- "pkg-config",
- "qrcode",
- "serde",
- "serde_json",
- "sha2",
- "tempfile",
- "tokio",
- "tracing",
- "tracing-subscriber",
- "windows",
- "windows-core",
- "zbus",
-]
-
-[[package]]
-name = "njlink-ffi"
-version = "0.1.4"
-dependencies = [
- "jni-sys 0.4.1",
- "njlink-core",
- "paranoid-android",
- "thiserror 2.0.21",
- "tokio",
- "tracing",
- "tracing-subscriber",
- "uniffi",
-]
-
-[[package]]
-name = "njlink-protocol"
-version = "0.1.4"
-dependencies = [
- "ciborium",
- "data-encoding",
- "hmac",
- "serde",
- "serde_bytes",
- "sha2",
- "thiserror 2.0.21",
- "tokio",
- "url",
-]
-
-[[package]]
-name = "njlink-vcam"
-version = "0.1.4"
-dependencies = [
- "ab_glyph",
- "embed-resource",
- "libc",
- "windows",
- "windows-core",
-]
-
-[[package]]
 name = "netdev"
 version = "0.45.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2716,6 +2578,144 @@ dependencies = [
  "windows",
  "windows-result",
  "wmi",
+]
+
+[[package]]
+name = "njlink-adb"
+version = "0.1.4"
+dependencies = [
+ "thiserror 2.0.21",
+ "tokio",
+ "tokio-util",
+ "tracing",
+]
+
+[[package]]
+name = "njlink-cli"
+version = "0.1.4"
+dependencies = [
+ "anyhow",
+ "clap",
+ "dirs",
+ "hostname",
+ "libc",
+ "njlink-core",
+ "qrcode",
+ "serde",
+ "serde_json",
+ "tempfile",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+ "windows",
+]
+
+[[package]]
+name = "njlink-core"
+version = "0.1.4"
+dependencies = [
+ "blake3",
+ "bytes",
+ "data-encoding",
+ "iroh",
+ "iroh-mdns-address-lookup",
+ "libc",
+ "material-colors",
+ "n0-future",
+ "njlink-adb",
+ "njlink-protocol",
+ "noq-proto",
+ "rand",
+ "ring",
+ "rusqlite",
+ "rustls",
+ "rustls-pki-types",
+ "serde",
+ "serde_json",
+ "sha2",
+ "socket2",
+ "tempfile",
+ "thiserror 2.0.21",
+ "tokio",
+ "tokio-rustls",
+ "tokio-util",
+ "tracing",
+ "tracing-subscriber",
+ "url",
+ "windows",
+]
+
+[[package]]
+name = "njlink-desktop"
+version = "0.1.4"
+dependencies = [
+ "anyhow",
+ "blake3",
+ "cc",
+ "cxx",
+ "cxx-qt",
+ "cxx-qt-build",
+ "cxx-qt-lib",
+ "data-encoding",
+ "dirs",
+ "embed-resource",
+ "hostname",
+ "libc",
+ "material-colors",
+ "njlink-core",
+ "njlink-vcam",
+ "pkg-config",
+ "qrcode",
+ "serde",
+ "serde_json",
+ "sha2",
+ "tempfile",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+ "windows",
+ "windows-core",
+ "zbus",
+]
+
+[[package]]
+name = "njlink-ffi"
+version = "0.1.4"
+dependencies = [
+ "jni-sys 0.4.1",
+ "njlink-core",
+ "paranoid-android",
+ "thiserror 2.0.21",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+ "uniffi",
+]
+
+[[package]]
+name = "njlink-protocol"
+version = "0.1.4"
+dependencies = [
+ "ciborium",
+ "data-encoding",
+ "hmac",
+ "serde",
+ "serde_bytes",
+ "sha2",
+ "thiserror 2.0.21",
+ "tokio",
+ "url",
+]
+
+[[package]]
+name = "njlink-vcam"
+version = "0.1.4"
+dependencies = [
+ "ab_glyph",
+ "embed-resource",
+ "libc",
+ "windows",
+ "windows-core",
 ]
 
 [[package]]
@@ -4020,7 +4020,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32497e9a4c7b38532efcdebeef879707aa9f794296a4f0244f6f69e9bc8574bd"
 dependencies = [
  "fastrand",
- "getrandom 0.3.4",
+ "getrandom 0.4.3",
  "once_cell",
  "rustix",
  "windows-sys 0.61.2",
